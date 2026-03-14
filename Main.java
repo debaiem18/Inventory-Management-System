@@ -39,6 +39,7 @@ public class Main {
 
                 case 2:
                     for (Product p : dao.getAllProducts()) {
+                        System.out.println("The List : ID , Product Name , Price , Quantity");
                         System.out.println(p);
                     }
                     break;
